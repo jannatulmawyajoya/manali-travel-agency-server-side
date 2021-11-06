@@ -119,7 +119,7 @@ client.connect(err => {
 // run().catch(console.dir);
 
 app.get('/', (req,res)=> {
-    res.send('Running manali travel agency');
+    res.send('Running manali travel agency properly');
 });
 
 app.listen(port, ()=>{
